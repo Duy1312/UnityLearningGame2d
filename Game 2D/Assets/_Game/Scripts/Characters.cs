@@ -44,7 +44,7 @@ public class Characters : MonoBehaviour
         {
             anim.ResetTrigger(animName);
             currentAnimName = animName;
-            anim.SetTrigger(currentAnimName);
+            anim.SetTrigger(currentAnimName); 
         }
     }
     protected virtual void OnDeath()
